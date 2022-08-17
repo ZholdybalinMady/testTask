@@ -1,0 +1,14 @@
+POST http://localhost:8080/period/2022-02
+Content-Type: application/json
+
+{
+  "mitarbeiterId": 1,
+  "beginn": "2020-03-09T09:00",
+  "ende": "2020-03-09T18:00",
+  "dauer": 147
+}
+
+
+
+###
+GET http://localhost:8080/salary/1
